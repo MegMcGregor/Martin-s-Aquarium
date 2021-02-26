@@ -6,4 +6,5 @@ console.log ("FISH COLLECTION", getFish());
 
 import { fishList } from "./FishList";
 
-fishList();
+
+console.log(fishList());

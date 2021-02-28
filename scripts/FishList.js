@@ -11,9 +11,10 @@ export const fishList = () => {
     let fishHTMLRepresentations = "";
 
     for (const oneThingFromTheSea of allFishes) {
+
         fishHTMLRepresentations += Fish(oneThingFromTheSea);
-        console.log(fishHTMLRepresentations);
+
+        console.log("Fish HTML", fishHTMLRepresentations);
     }
 
 }
-

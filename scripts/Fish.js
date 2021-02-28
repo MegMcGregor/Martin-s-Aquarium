@@ -1,4 +1,4 @@
-expoort const Fish = (fishObj) => {
+export const Fish = (fishObj) => {
     return (
         `<article class="fish-card">
             <div><img class="fish-image" src="images/${fishObj.image}" /></div>

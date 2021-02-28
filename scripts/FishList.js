@@ -15,6 +15,7 @@ export const fishList = () => {
         fishHTMLRepresentations += Fish(oneThingFromTheSea);
 
         console.log("Fish HTML", fishHTMLRepresentations);
-    }
 
+        DOMLocation.innerHTML = fishHTMLRepresentations;
+    }
 }

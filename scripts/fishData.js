@@ -24,7 +24,7 @@ export const fishCollection = [
         name: "BigBoss",
         species: "Amber Jack",
         inches: 60,
-        image: "greyfish.jpg"
+        image: "bluefin.jpg"
     },
     {
         saltWater: true,
@@ -96,7 +96,7 @@ export const fishCollection = [
         name: "Whiskers",
         species: "Ictalurus furcatus",
         inches: 39,
-        image: "blueCatfish.jpg"
+        image: "bluefin.jpg"
     },
     {
         saltWater: true,
@@ -141,7 +141,7 @@ export const fishCollection = [
         name: "Pizza",
         species: "Tuna",
         inches: 40,
-        image: "tuna.jpg"
+        image: "bluefin.jpg"
     },
     {
         saltWater: false,
@@ -186,7 +186,7 @@ export const fishCollection = [
         inches: 12,
         image: "orangefish.jpg",
         diet: "worms",
-        species: "garibaldi"
+        species: "bluefin.jpg"
     },
     {
         saltWater: true,

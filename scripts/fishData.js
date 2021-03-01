@@ -114,7 +114,7 @@ export const fishCollection = [
         name: "Dorothy",
         species: "goldfish",
         inches: 3,
-        img: "bluefish.jpg"
+        image: "bluefish.jpg"
     },
     {
         saltWater: false,
@@ -150,7 +150,7 @@ export const fishCollection = [
         name: "Finn",
         species: "Bass",
         inches: 20,
-        image: "bluefish.jpeg",
+        image: "pinkfish.jpg"
     },
     {
         saltWater: true,
@@ -184,9 +184,9 @@ export const fishCollection = [
         harvestLocation: "Atlantic Sea",
         name: "flipper",
         inches: 12,
-        image: "orangefish.jpg",
+        image: "bluefish.jpg",
         diet: "worms",
-        species: "bluefin.jpg"
+        species: "marlin.jpg"
     },
     {
         saltWater: true,

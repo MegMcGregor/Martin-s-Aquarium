@@ -4,7 +4,6 @@
 body {
 	background-color: antiquewhite;
 	font-family: 'Poppins', sans-serif;
-	margin: 0;
 }
 
 header {
@@ -51,6 +50,17 @@ nav a:active {
 .fishTank {
 	margin: 1em 0;
 	display: flex;
+	width: 75%;
+	float: left;
+}
+
+aside {
+	display: flex;
+	width: 25%;
+	float: right;
+	background: pink;
+	height: 600px;
+	margin: 1.5em 0;
 }
 
 #fishList{
@@ -85,4 +95,5 @@ footer {
 	background-color: darkcyan;
 	color: whitesmoke;
 	text-align: center;
+	clear: both;
 }

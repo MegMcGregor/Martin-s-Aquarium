@@ -19,3 +19,4 @@ export const fishList = () => {
         DOMLocation.innerHTML = fishHTMLRepresentations;
     }
 }
+

@@ -1,5 +1,8 @@
 console.log ("YOU GOT DIS");
 
-import { fishList } from "./FishList.js";
+//import { fishList } from "./FishList.js";
 
-fishList();
+import { mostHolyFish } from "./fishFilter.js";
+
+//fishList();
+mostHolyFish();

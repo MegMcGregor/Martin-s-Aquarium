@@ -1,22 +1,34 @@
 import { getFish } from "./fishData.js";
 import { Fish } from "./Fish.js";
+import { mostHolyFish } from "./fishFilter";
+import { soldierFish } from "./fishFilter";
+import { unworthyFish } from "./fishFilter";
+
 
 export const fishList = () => {
+    const holyFishes = mostHolyFish();
+    addFishToDom(holyFishes);
 
-    const allFishes = getFish();
+    const soldierFishes = soldierFish();
+    addFishToDom(soldierFishes);
+
+    const unworthyFishes = unworthyFish();
+    addFishToDom(unworthyFishes)
+    // const allFishes = holyFishes.concat(soldierFishes, unworthyFishes);
+}
+
+const addFishToDom = (fishArray) => {
 
     const DOMLocation = document.querySelector("#fishList");
-    console.log("fish list reference", DOMLocation);
-
     let fishHTMLRepresentations = "";
 
-    for (const oneThingFromTheSea of allFishes) {
+    for (const oneThingFromTheSea of fishArray) {
 
         fishHTMLRepresentations += Fish(oneThingFromTheSea);
-
-        console.log("Fish HTML", fishHTMLRepresentations);
-
-        DOMLocation.innerHTML = fishHTMLRepresentations;
     }
+
+    DOMLocation.innerHTML += fishHTMLRepresentations;
+
 }
+
 

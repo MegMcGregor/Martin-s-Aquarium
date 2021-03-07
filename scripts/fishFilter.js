@@ -1,5 +1,6 @@
 
 import { fishCollection } from "./fishData.js";
+import { getFish } from "./fishData";
 
 export const mostHolyFish = () => {
     const holyFish = []
@@ -10,8 +11,7 @@ export const mostHolyFish = () => {
         }
     }
     return holyFish
-};
-
+}
 
 export const soldierFish = () => {
     const soldierFish = []
@@ -21,17 +21,16 @@ export const soldierFish = () => {
             soldierFish.push(oneFish)
         }
     }
-    return soldiers
+    return soldierFish
 }
 
+export const unworthyFish = () => {
+    const unworthyFish = []
 
-// export const unworthyFish = () => {
-//     const unworthyFish = []
-
-//     for (const oneFish of unworthyFish) {
-//         if (oneFish % 3 || 5 !== 0) {
-//                 unworthyFish.push(unworthyFish)
-//             }
-//         }
-//         return regularFish
-// }
+    for (const oneFish of unworthyFish) {
+        if (oneFish % 3 || 5 !== 0) {
+            unworthyFish.push(unworthyFish)
+        }
+    }
+    return unworthyFish
+}
